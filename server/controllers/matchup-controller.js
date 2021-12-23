@@ -1,3 +1,6 @@
+//Server side handles all of the logic for our routes within the controllers folder. 
+
+
 const { Matchup } = require('../models');
 
 module.exports = {

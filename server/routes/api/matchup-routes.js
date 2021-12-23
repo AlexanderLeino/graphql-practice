@@ -1,3 +1,5 @@
+//This is just making sure we go to the right spot in our controllers. 
+
 const router = require('express').Router();
 const {
   getAllMatchups,
