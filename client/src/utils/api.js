@@ -1,3 +1,5 @@
+//This holds all of our fetch requests from the front end. 
+
 export const getAllMatchups = () => {
   return fetch('/api/matchup', {
     method: 'GET',
