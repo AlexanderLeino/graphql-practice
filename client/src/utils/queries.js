@@ -10,4 +10,13 @@ export const QUERY_MATCHUPS = gql`
             tech2_votes
         }
     }
-` 
+`
+
+export const GET_ALL_TECH = gql`
+    query AllTech {
+        tech{
+            _id
+            name
+        }
+    }
+`
